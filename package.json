@@ -1,0 +1,22 @@
+{
+	"name": "quickbuy",
+	"description": "E-commerce platform built with Turborepo + SvelteKit + Nest + Prisma",
+	"author": "Gustavo Morinaga <me@gustavomorinaga.dev>",
+	"license": "UNLICENSED",
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"start": "turbo run start",
+		"lint": "turbo run lint",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"eslint": "^8.37.0",
+		"eslint-config-custom": "workspace:*",
+		"prettier": "^2.8.7",
+		"prettier-plugin-svelte": "^2.10.0",
+		"turbo": "latest"
+	},
+	"packageManager": "pnpm@8.1.1"
+}

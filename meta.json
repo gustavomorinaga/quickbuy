@@ -1,0 +1,6 @@
+{
+	"name": "QuickBuy",
+	"description": "E-commerce platform built with Turborepo + SvelteKit + Nest + Prisma",
+	"featured": true,
+	"template": "https://vercel.com/templates/svelte/turborepo-sveltekit-starter"
+}
