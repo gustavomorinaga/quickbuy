@@ -12,6 +12,7 @@
 		"format": "prettier --write --ignore-path=../../.prettierignore ."
 	},
 	"dependencies": {
+		"database": "workspace:*",
 		"ui": "workspace:*"
 	},
 	"devDependencies": {
